@@ -1,0 +1,17 @@
+public-urls:
+  auth:
+    - "/api/auth/set-password",
+    - "/api/auth/login",
+    - "/api/auth/create-password-reset-token",
+    - "/api/auth/create-password-token",
+    - "/api/auth/get-email",
+    - "/api/auth/get-email-from-reset-token",
+    - "/api/companies/company/{companyId}",
+    - "/api/auth/forgot-password",
+    - "/api/auth/reset-password"
+  company:
+    - "/api/companies/register",
+    - "/api/companies/company/complete",
+    - "/api/companies/company/{companyId}",
+    - "/api/companies/get/all",
+    - "/api/companies/get/all/waiting"
